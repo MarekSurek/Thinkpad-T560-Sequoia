@@ -37,6 +37,7 @@ Complete OpenCore EFI configuration for the **Lenovo ThinkPad T560**, making it 
 
 * **SD Card Reader:** Intentionally disabled. Enabling `RealtekCardReader.kext` will cause the system to crash/restart after sleep.
 * **AMFI:** Security is partially lowered (`amfi_get_out_of_my_way=1`) to allow Intel Wireless drivers to function on Sequoia.
+* **You tell me!**
 
 ---
 
@@ -68,9 +69,9 @@ This project is licensed under the **MIT License**. This EFI is provided "as is"
 
 ## 👏 Credits
 
-* **Apple**: For macOS.
-* **Acidanthera**: For OpenCore, Lilu, WhateverGreen, and AppleALC.
-* **OpenIntelWireless**: For `itlwm` and Intel Bluetooth drivers.
-* **Dortania**: For the master guides.
+* [Apple](https://apple.com) for macOS.
+* [Acidanthera](https://github.com/acidanthera) for OpenCore, Lilu, WhateverGreen, and AppleALC.
+* [Dortania](https://dortania.github.io/OpenCore-Install-Guide/) for the extensive guides.
+* [OpenIntelWireless](https://github.com/OpenIntelWireless) for Intel WiFi drivers.
 
 ---
