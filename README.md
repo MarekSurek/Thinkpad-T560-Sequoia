@@ -6,6 +6,8 @@
 
 Complete OpenCore EFI configuration for the **Lenovo ThinkPad T560**, making it the first known stable build for **macOS Sequoia** on this machine. This configuration bypasses Skylake limitations and fixes critical sleep/wake and connectivity issues.
 
+<img width="1920" height="1080" alt="mac" src="https://github.com/user-attachments/assets/be93bf47-ce30-44a8-b1c6-be1d9604b465" />
+
 ---
 
 ## 💻 Hardware Specification
