@@ -37,8 +37,10 @@ Complete OpenCore EFI configuration for the **Lenovo ThinkPad T560**, making it 
 
 ## ❌ Known Issues
 
-* **SD Card Reader:** Intentionally disabled. Enabling `RealtekCardReader.kext` will cause the system to crash/restart after sleep.
-* **AMFI:** Security is partially lowered (`amfi_get_out_of_my_way=1`) to allow Intel Wireless drivers to function on Sequoia.
+* **NVIDIA 940MX**: macOS does not support Optimus technology. The discrete GPU is disabled via ACPI (SSDT) to save battery.
+* **SD Card Reader**: Intentionally disabled. Enabling `RealtekCardReader.kext` will cause the system to crash/restart after sleep.
+* **Special Keys**: Dedicated keys for Calculator, Lock, Web Browser, and File Explorer do not function.
+* **DRM**: DRM content (Netflix/Apple TV+ in Safari) might not work (common iGPU limitation). Use Chromium/Firefox.
 * **You tell me!**
 
 ---
