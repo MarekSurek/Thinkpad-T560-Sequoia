@@ -58,11 +58,13 @@ Complete OpenCore EFI configuration for the **Lenovo ThinkPad T560**, making it 
 ## 📝 Installation & Post-Install
 
 ### 1. SMBIOS
+Serials are blanked for security reasons. Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate data for **MacBookPro16,2**.
 
-Serials are blanked for security. Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate data for **MacBookPro16,2**.
+### 2. Function Keys (YogaSMC)
+The YogaSMC.kext is included in the EFI. To get the on-screen display (OSD) for volume/brightness and full function key support:
+Download and install the YogaSMC App (Settings pane) inside macOS.
 
-### 2. HeliPort
-
+### 3. HeliPort
 For WiFi, install the [HeliPort app](https://github.com/OpenIntelWireless/HeliPort) and set it to **Launch at Login**.
 
 ---
